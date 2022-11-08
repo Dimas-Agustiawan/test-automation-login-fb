@@ -21,12 +21,12 @@ public class Test_Login {
         
         // Masukkan Email
         WebElement textemail = driver.findElement(By.name("email"));
-        Action tulisEmail = aksi.sendKeys(textemail, "sdas").build();
+        Action tulisEmail = aksi.sendKeys(textemail, "dimasagustiawan30@gmail.com").build();
         tulisEmail.perform();
         
         // Masukkan Password
         WebElement textpassword = driver.findElement(By.name("pass"));
-        Action tulisPass = aksi.sendKeys(textpassword, "dsd").build();
+        Action tulisPass = aksi.sendKeys(textpassword, "Dsq4tpw14").build();
         tulisPass.perform();
         
         // Klik Button Login
